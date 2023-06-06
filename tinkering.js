@@ -1,7 +1,7 @@
-function multiply(a,b) {
-	return a*b;
+const chorus = "Let's Dance!";
+let repeat = 0;
+while (repeat < 10 ){
+	console.log(chorus);
+	repeat++;
 }
-
-const result = multiply(2,4);
-
-console.log(result);
+console.log ("Until the sun comes up!")
