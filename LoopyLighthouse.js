@@ -1,5 +1,5 @@
 // LOOPY LIGHTHOUSE
-/*let x = 100;
+let x = 100;
 for (x = 100; x <= 200; x++) {
   if ((x % 3 === 0) && (x % 4 === 0)){
     console.log("LoopyLighthouse")
@@ -11,4 +11,4 @@ for (x = 100; x <= 200; x++) {
     console.log(x)
   }
 }
-*/
+
