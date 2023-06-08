@@ -18,3 +18,18 @@ let cry = function sob(){
 };
 console.log(cry());
 //and it does it with sarcasm
+
+/*
+function emotions(myString, myFunc) {
+    console.log("I am " + myString + ", " + myFunc(2));
+}
+
+emotions ("happy", function displayHappy(max) {
+    let ha = "";
+    for (i = 0; i < max; i++) {
+        ha += "ha";
+        laugh = ha;
+    }
+    return ha + "!";
+})
+*/
