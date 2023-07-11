@@ -1,4 +1,4 @@
-/*let row = "";
+let row = "";
 let build = "";
 function makeLine(length) {
   let string = "";
@@ -16,7 +16,7 @@ function buildTriangle(height){
   }
 
 console.log(buildTriangle(4))
-*/
+
 /*// creates a line of * for a given length
 function makeLine(length) {
   var line = "";

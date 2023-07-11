@@ -1,3 +1,50 @@
+//driving mayor daisy
+const cars = [
+  {
+    time: 1568329654807,
+    speed: 40,
+  },
+  {
+    time: 1568329821632,
+    speed: 42,
+  },
+  {
+    time: 1568331115463,
+    speed: 35
+  }
+]
+const speed = 38
+
+function carPassing(cars, speed){
+  let v = speed
+  let obj = {time: Date.now(), speed: v } 
+  cars.push(obj);
+  console.log(cars);
+  return cars
+}
+
+console.log(carPassing(cars, speed))
+
+//trash to treasure
+const smartGarbage = function (trash, bins) {
+  // Your code in here ...
+  if (trash === 'waste'){
+    bins[0] += 1;
+    console.log (bins)
+  } else if (trash === 'recycling'){
+    bins[1] += 1;
+    console.log (bins)
+  } else if (trash === 'compost'){
+    bins[2] += 1;
+    console.log (bins)
+  }
+}
+
+console.log(smartGarbage('recycling', [13, 7, 5]))
+
+
+//speed marks the perfect shot
+/*
 function finalPosition(moves) {
   let move = [];
   let pos = [0,0];
@@ -17,11 +64,12 @@ function finalPosition(moves) {
        
     } return pos
 }
+*/
 //let moves = ['north', 'north', 'west', 'west', 'north', 'east','north']
 
 //console.log(finalPosition(moves));
 
-
+//voting station calculation
 /*let stations = [
   ['Big Bear Donmove', 10, 'restaurant'],
   ['Bright Lights Elementary', 50, 'school'],
